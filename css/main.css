@@ -73,7 +73,7 @@ nav a:hover {
 */
 header {
 	clear: both;
-	height: 163px;
+	height: 150px;
 	padding: 6px 0;
 	text-align: center;
 }
@@ -389,3 +389,213 @@ footer p {
 	font-size: 10px;
 	color: #999;	margin-top: 50px;
 }
+@media screen and (max-width: 425px) {
+	.meet, 
+	.arrow-left,
+	.customers > img,
+	.crumple,
+	.book,
+	.quotes,
+	.arrow-right {
+		display: none;
+	}
+	nav ul {
+		float: none;
+	}
+	header,
+	section {
+		width: 101%;
+	}
+	header h1 {
+		font-size: 26px;
+		line-height: 42px;
+		margin: 0 5%;
+	}
+	header h5 {
+		font-size: 15px;
+	}
+	.products a {
+		width: 243px
+	}
+	.customers p{
+		margin-left: 23px;
+		font-size: 18px;
+	}
+	.offerings,
+	.rework,
+	.rework h2,
+	.offerings h2 {
+		display: none;
+		font-size: 20px;
+		line-height: 32px;
+	}
+	hr {
+		background: none; 
+	}
+	.customers h2,
+	.manifesto h2 {
+		font-size: 19px;
+		padding: 0 0 20px 0;
+	}
+	.manifesto h4 {
+		font-size: 16px;
+	}
+	.manifesto p {
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.manifesto .column div:nth-child(n+2),
+	.manifesto .column-end div:nth-child(n+2) {
+		clear: left;
+	}
+	.offerings .column small, .offerings .column-end small {
+	    font-size: 10px;
+	}
+
+}
+/*375*/
+@media (max-width: 375px) {
+	.meet, 
+	.arrow-left,
+	.customers > img,
+	.crumple,
+	.book,
+	.quotes,
+	.arrow-right {
+		display: none;
+	}
+	nav ul {
+		float: none;
+	}
+	header,
+	section {
+		width: 101%;
+	}
+	header h1 {
+		font-size: 26px;
+		line-height: 42px;
+		margin: 0 5%;
+	}
+	header h5 {
+		font-size: 15px;
+	}
+	.products a {
+		left: 40px;
+		top: 42px;
+		width: 190px;
+	}
+	.customers p{
+		margin-left: 23px;
+		font-size: 18px;
+	}
+	.offerings,
+	.rework,
+	.rework h2,
+	.offerings h2 {
+		display: none;
+		font-size: 20px;
+		line-height: 32px;
+	}
+	hr {
+		background: none; 
+	}
+	.customers h2,
+	.manifesto h2 {
+		font-size: 19px;
+		padding: 0 0 20px 0;
+	}
+	.manifesto h4 {
+		font-size: 16px;
+	}
+	.manifesto p {
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.manifesto .column div:nth-child(n+2),
+	.manifesto .column-end div:nth-child(n+2) {
+		clear: left;
+	}
+	.offerings .column small, .offerings .column-end small {
+	    font-size: 10px;
+	}
+
+}
+/*320*/
+@media (max-width: 320px) {
+	.meet, 
+	.arrow-left,
+	.customers > img,
+	.crumple,
+	.book,
+	.quotes,
+	.arrow-right {
+		display: none;
+	}
+	nav ul {
+		float: none;
+	}
+	header,
+	section {
+		width: 101%;
+	}
+	header h1 {
+		font-size: 19px;
+		line-height: 42px;
+		margin: 0 5%;
+	}
+	header h5 {
+		font-size: 15px;
+	}
+	.products a {
+		width: 190px;
+	}
+	.customers p{
+		margin-left: 23px;
+		font-size: 14px;
+	}
+	.offerings,
+	.rework,
+	.rework h2,
+	.offerings h2 {
+		display: none;
+		font-size: 20px;
+		line-height: 32px;
+	}
+	hr {
+		background: none; 
+	}
+	.customers h2,
+	.manifesto h2 {
+		font-size: 19px;
+		padding: 0 28px 22px 11px;
+	}
+	.manifesto h4 {
+		font-size: 16px;
+	}
+	.manifesto p {
+		font-size: 10px;
+		line-height: 14px;
+	}
+	.manifesto .column div:nth-child(n+2),
+	.manifesto .column-end div:nth-child(n+2) {
+		clear: left;
+	}
+	.offerings .column small, .offerings .column-end small {
+	    font-size: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
